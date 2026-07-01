@@ -146,7 +146,7 @@ async def get_registry_info(registry_url: str | None = None) -> str:
         registry_url: Optional custom registry URL
     """
     base_url = registry_url or GA4GH_REGISTRY_BASE
-    url = f"{base_url}/info"
+    url = f"{base_url}/service-info"
     data = await make_request(url)
 
     if not data or not isinstance(data, dict):
