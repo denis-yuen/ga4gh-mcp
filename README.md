@@ -138,7 +138,7 @@ This is the recommended approach for iterative development: make a change, resta
        "run",
        "refgenie.py"
      ]
-   },
+   }
    ```
 
 3. Restart Claude Desktop (or use Help → Reload configuration)
