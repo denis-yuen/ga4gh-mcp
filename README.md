@@ -60,13 +60,13 @@ Run directly with uv from project root:
 uv run --directory servers -- python -m ga4gh_registry
 
 # run TRS server
-uv run --directory servers -- python -m ga4gh_trs.py
+uv run --directory servers -- python -m ga4gh_trs
 
 # run Refget server
-uv run --directory servers -- python -m ga4gh_refget.py
+uv run --directory servers -- python -m ga4gh_refget
 
 # run Refgenie server
-uv run --directory servers -- python -m refgenie.py
+uv run --directory servers -- python -m refgenie
 ```
 
 ## Testing the server
