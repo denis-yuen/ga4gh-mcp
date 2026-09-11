@@ -144,6 +144,8 @@ This is the recommended approach for iterative development: make a change, resta
 3. Restart Claude Desktop (or use Help → Reload configuration)
 4. Servers should now appear in the Tools/Plugins list
 
+Note: this works with Claude code as well, just tell it to import MCP servers from the `desktop_config.json` above. It will fix up the formatting and after restarting, the servers will appear in `/mcp`
+
 ## Troubleshooting
 
 - `command not found: uv` - Install uv using the link above
